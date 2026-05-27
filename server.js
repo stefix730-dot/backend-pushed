@@ -1,3 +1,6 @@
+app.get("/", (req, res) => {
+  res.send("ARTIFACT BACKEND LIVE");
+});
 console.log("SERVER FILE LOADED")
 const express = require("express");
 const cors = require("cors");
